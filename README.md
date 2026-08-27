@@ -11,7 +11,7 @@ The purpose of this benchmark is not to declare a single “winner.” The purpo
 - documented caveats
 - comparable free-tier or entry-tier resource limits
 
-**Companion article:** [Add your public article link here]
+**Companion article:** https://dev.to/kalbashi09/benchmarking-5-graph-database-platforms-on-the-same-352k-edge-graph-what-free-tiers-hide-39jm
 
 ---
 
