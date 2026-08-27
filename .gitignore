@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+GuideTask/
+
+# Local dataset files
+data/
+Dataset/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

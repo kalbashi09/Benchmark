@@ -1,0 +1,94 @@
+{
+  "platform": "cognodb",
+  "generated_utc": "2026-08-27T01:05:48.4208413Z",
+  "results": [
+    {
+      "metric": "ingest",
+      "nodes_per_sec": 1064,
+      "rels_per_sec": 1209,
+      "total_load_sec": 317.9
+    },
+    {
+      "metric": "point_lookup",
+      "p50_ms": 643.942,
+      "p95_ms": 647.03,
+      "min_ms": 641.609,
+      "max_ms": 1063.977,
+      "iters": 100
+    },
+    {
+      "metric": "filtered_lookup",
+      "p50_ms": 671.096,
+      "p95_ms": 679.942,
+      "min_ms": 666.134,
+      "max_ms": 723.492,
+      "iters": 100
+    },
+    {
+      "metric": "hop1",
+      "p50_ms": 644.157,
+      "p95_ms": 651.676,
+      "min_ms": 640.867,
+      "max_ms": 1272.011,
+      "iters": 100
+    },
+    {
+      "metric": "hop2",
+      "p50_ms": 652.323,
+      "p95_ms": 660.809,
+      "min_ms": 649.465,
+      "max_ms": 1099.855,
+      "iters": 100
+    },
+    {
+      "metric": "hop3",
+      "p50_ms": 654.205,
+      "p95_ms": 738.483,
+      "min_ms": 649.506,
+      "max_ms": 1088.274,
+      "iters": 100
+    },
+    {
+      "metric": "aggregation_by_field",
+      "p50_ms": 683.653,
+      "p95_ms": 691.267,
+      "min_ms": 679.17,
+      "max_ms": 706.835,
+      "iters": 100
+    },
+    {
+      "metric": "mixed_1_clients",
+      "clients": 1,
+      "seconds": 30.5,
+      "reads": 34,
+      "writes": 12,
+      "errors": 0,
+      "qps": 1.5,
+      "write_ratio": 0.2
+    },
+    {
+      "metric": "mixed_10_clients",
+      "clients": 10,
+      "seconds": 30.6,
+      "reads": 376,
+      "writes": 89,
+      "errors": 0,
+      "qps": 15.2,
+      "write_ratio": 0.2
+    },
+    {
+      "metric": "mixed_40_clients",
+      "clients": 40,
+      "seconds": 30.6,
+      "reads": 1548,
+      "writes": 325,
+      "errors": 0,
+      "qps": 61.2,
+      "write_ratio": 0.2
+    },
+    {
+      "node_count": 27769,
+      "rel_count": 352768
+    }
+  ]
+}

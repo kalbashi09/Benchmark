@@ -1,0 +1,94 @@
+{
+  "platform": "aura",
+  "generated_utc": "2026-08-27T01:24:29.7502199Z",
+  "results": [
+    {
+      "metric": "ingest",
+      "nodes_per_sec": 9920.9,
+      "rels_per_sec": 7865.6,
+      "total_load_sec": 47.6
+    },
+    {
+      "metric": "point_lookup",
+      "p50_ms": 146.112,
+      "p95_ms": 148.509,
+      "min_ms": 144.153,
+      "max_ms": 235.252,
+      "iters": 100
+    },
+    {
+      "metric": "filtered_lookup",
+      "p50_ms": 147.483,
+      "p95_ms": 150.359,
+      "min_ms": 145.279,
+      "max_ms": 236.358,
+      "iters": 100
+    },
+    {
+      "metric": "hop1",
+      "p50_ms": 146.208,
+      "p95_ms": 148.944,
+      "min_ms": 143.864,
+      "max_ms": 237.126,
+      "iters": 100
+    },
+    {
+      "metric": "hop2",
+      "p50_ms": 146.512,
+      "p95_ms": 148.599,
+      "min_ms": 144.657,
+      "max_ms": 236.737,
+      "iters": 100
+    },
+    {
+      "metric": "hop3",
+      "p50_ms": 146.818,
+      "p95_ms": 158.65,
+      "min_ms": 144.338,
+      "max_ms": 295.286,
+      "iters": 100
+    },
+    {
+      "metric": "aggregation_by_field",
+      "p50_ms": 156.838,
+      "p95_ms": 162.862,
+      "min_ms": 154.216,
+      "max_ms": 405.04,
+      "iters": 100
+    },
+    {
+      "metric": "mixed_1_clients",
+      "clients": 1,
+      "seconds": 30,
+      "reads": 155,
+      "writes": 42,
+      "errors": 0,
+      "qps": 6.6,
+      "write_ratio": 0.2
+    },
+    {
+      "metric": "mixed_10_clients",
+      "clients": 10,
+      "seconds": 30.1,
+      "reads": 1750,
+      "writes": 442,
+      "errors": 0,
+      "qps": 72.8,
+      "write_ratio": 0.2
+    },
+    {
+      "metric": "mixed_40_clients",
+      "clients": 40,
+      "seconds": 30.1,
+      "reads": 6868,
+      "writes": 1801,
+      "errors": 0,
+      "qps": 287.7,
+      "write_ratio": 0.2
+    },
+    {
+      "node_count": 27769,
+      "rel_count": 352768
+    }
+  ]
+}

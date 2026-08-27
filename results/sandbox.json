@@ -1,0 +1,94 @@
+{
+  "platform": "sandbox",
+  "generated_utc": "2026-08-27T02:25:58.4701099Z",
+  "results": [
+    {
+      "metric": "ingest",
+      "nodes_per_sec": 1621.9,
+      "rels_per_sec": 2339,
+      "total_load_sec": 167.9
+    },
+    {
+      "metric": "point_lookup",
+      "p50_ms": 698.836,
+      "p95_ms": 711.07,
+      "min_ms": 696.123,
+      "max_ms": 1171.222,
+      "iters": 100
+    },
+    {
+      "metric": "filtered_lookup",
+      "p50_ms": 700.404,
+      "p95_ms": 945.051,
+      "min_ms": 696.746,
+      "max_ms": 1452.827,
+      "iters": 100
+    },
+    {
+      "metric": "hop1",
+      "p50_ms": 697.842,
+      "p95_ms": 713.301,
+      "min_ms": 695.937,
+      "max_ms": 1174.626,
+      "iters": 100
+    },
+    {
+      "metric": "hop2",
+      "p50_ms": 697.673,
+      "p95_ms": 712.924,
+      "min_ms": 695.586,
+      "max_ms": 1616.339,
+      "iters": 100
+    },
+    {
+      "metric": "hop3",
+      "p50_ms": 698.012,
+      "p95_ms": 720.312,
+      "min_ms": 695.019,
+      "max_ms": 1172.834,
+      "iters": 100
+    },
+    {
+      "metric": "aggregation_by_field",
+      "p50_ms": 704.6,
+      "p95_ms": 723.185,
+      "min_ms": 701.453,
+      "max_ms": 1152.1,
+      "iters": 100
+    },
+    {
+      "metric": "mixed_1_clients",
+      "clients": 1,
+      "seconds": 30.2,
+      "reads": 36,
+      "writes": 7,
+      "errors": 0,
+      "qps": 1.4,
+      "write_ratio": 0.2
+    },
+    {
+      "metric": "mixed_10_clients",
+      "clients": 10,
+      "seconds": 30.6,
+      "reads": 339,
+      "writes": 78,
+      "errors": 0,
+      "qps": 13.6,
+      "write_ratio": 0.2
+    },
+    {
+      "metric": "mixed_40_clients",
+      "clients": 40,
+      "seconds": 31.1,
+      "reads": 1247,
+      "writes": 348,
+      "errors": 0,
+      "qps": 51.3,
+      "write_ratio": 0.2
+    },
+    {
+      "node_count": 27769,
+      "rel_count": 352768
+    }
+  ]
+}
