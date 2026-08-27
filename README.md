@@ -791,8 +791,8 @@ Optional:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/cognodb-graph-benchmark.git
-cd cognodb-graph-benchmark
+git clone https://github.com/kalbashi09/Benchmark.git
+cd Benchmark
 ```
 
 ### Step 2: Create Environment File
